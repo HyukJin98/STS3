@@ -109,6 +109,8 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\_devSts3\test01"/>
+			<item value="C:\_devSts3\chap02"/>
 			<item value="C:\_devSts3\Ex14_SimpleBBS"/>
 			<item value="C:\_devSts3\Ex13_JdbcTemplate"/>
 			<item value="C:\_devSts3\Ex08_Lombok"/>
