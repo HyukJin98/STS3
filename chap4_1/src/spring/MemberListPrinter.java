@@ -3,10 +3,14 @@ package spring;
 import java.util.Collection;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 
+@Component("listPrinter")
 public class MemberListPrinter {
 	private MemberDao memberDao;
 	private MemberPrinter printer;
+	
 	
 	public MemberListPrinter() {
 	}
@@ -30,9 +34,11 @@ public class MemberListPrinter {
 	}
 
 	@Autowired
+	@Qualifier("printer")
 	public void setPrinter(MemberPrinter printer) {
 		this.printer = printer;
 	}
+
 	
 	
 }

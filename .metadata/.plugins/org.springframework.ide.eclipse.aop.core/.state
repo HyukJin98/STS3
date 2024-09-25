@@ -2,5 +2,8 @@
 <aop-reference-model>
 <aop-project name="chap02"/>
 <aop-project name="chap03"/>
+<aop-project name="chap04"/>
+<aop-project name="chap08"/>
 <aop-project name="test01"/>
+<aop-project name="chap4_1"/>
 </aop-reference-model>
